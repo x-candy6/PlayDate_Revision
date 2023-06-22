@@ -19,8 +19,6 @@ from . import models
 from . import forms
 
 # Searching for Groups function
-
-
 def Search(request):
     # sampleGroups defines a random list of groups to be suggested to the user.
     # groups = list(models.Group.objects.all())
@@ -50,6 +48,7 @@ def Search(request):
         # return render(request, "groups/groupSearch.html", {'groups': groups, 'sampleGroups': sampleGroups})
         return render(request, "groups/groupSearch.html", {'groups': groups})
     return render(request, "groups/groupSearch.html", {'sampleGroups': sampleGroups})
+
 
 
 def myGroup(request):

@@ -1,0 +1,7 @@
+{
+    "django_key": ""
+}
+U2FsdGVkX18i9iUVixeqkrnSHVWM6xLVtWPqmfBzFiBdrD5vDq9TfDZeeENjE/Fj
+af9RKeqxDU3263IFhk5ZNe92SuZOuP3OjAptfNliTFoyJtAOT2RoTszsDXRNRt95
+
+openssl enc -d -aes-256-cbc -base64 -pass pass: ""
